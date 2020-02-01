@@ -17,5 +17,5 @@ const mapElement = document.createElement("div");
 mapElement.classList.add("MyLuciadMap");  
 root.appendChild(mapElement);
 
-// Create the map and fit to bounds
+// Create the map
 const map = new WebGLMap(mapElement, { reference: getReference("EPSG:4978") });
